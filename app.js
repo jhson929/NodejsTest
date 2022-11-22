@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 const port = 3000;
-const db = require('./db');
+// const db = require('./db');
 
 // 뷰 템플릿 엔진 설정
 app.set('view engine', 'ejs');
